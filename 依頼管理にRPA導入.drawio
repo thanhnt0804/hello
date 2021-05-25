@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T06:25:01.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="JGiaBDnK8JioOoZqVCaw" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T07:12:47.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="f-TcXeaCcgLlm1XUbtym" version="14.7.0" type="github">
   <diagram id="HkwJ5wBVBo28_0Q30BGw" name="Page-1">
     <mxGraphModel dx="2048" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,10 +142,10 @@
         <mxCell id="n510I995kuuaHjcIF-QW-62" value="成功返却" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="300" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n510I995kuuaHjcIF-QW-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-65" target="n510I995kuuaHjcIF-QW-67">
+        <mxCell id="n510I995kuuaHjcIF-QW-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-65" target="n510I995kuuaHjcIF-QW-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n510I995kuuaHjcIF-QW-65" value="担当者に報告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n510I995kuuaHjcIF-QW-65" value="結果確認" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="180" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
@@ -170,6 +170,12 @@
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-75" value="空いている" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="77.5" y="486.25" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-76" target="n510I995kuuaHjcIF-QW-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-76" value="担当者に報告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="100" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
