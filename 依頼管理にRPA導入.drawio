@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T06:16:32.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="d2fbqIp4Kci6DjFvA-K0" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T06:19:16.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MI_3c5s2NJyre0mM205T" version="14.7.0" type="github">
   <diagram id="HkwJ5wBVBo28_0Q30BGw" name="Page-1">
     <mxGraphModel dx="1865" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n510I995kuuaHjcIF-QW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="-220" width="1050" height="280" as="geometry" />
+          <mxGeometry x="-110" y="-150" width="1050" height="210" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-10" value="依頼を作成" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="-160" width="200" height="80" as="geometry" />
+          <mxGeometry x="-90" y="-80" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-14" value="①元ファイルをアップロード&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;②実行日付を選択&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="n510I995kuuaHjcIF-QW-10">
           <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
@@ -17,22 +17,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-210" width="20" height="20" as="geometry" />
+          <mxGeometry y="-130" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-15" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="330" width="1040" height="390" as="geometry" />
+          <mxGeometry x="-110" y="280" width="1040" height="390" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-16" target="n510I995kuuaHjcIF-QW-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-16" value="タスクを取得&lt;br&gt;「QUEUE」に追加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="370" width="120" height="40" as="geometry" />
+          <mxGeometry x="-55" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-17" target="n510I995kuuaHjcIF-QW-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-17" value="&lt;span&gt;「QUEUE」からタスクを所得&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-97.5" y="440" width="205" height="40" as="geometry" />
+          <mxGeometry x="-97.5" y="390" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-21" target="n510I995kuuaHjcIF-QW-23">
           <mxGeometry relative="1" as="geometry" />
@@ -41,33 +41,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-21" value="DA端末状況確認" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-67.5" y="505" width="145" height="80" as="geometry" />
+          <mxGeometry x="-67.5" y="470" width="145" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-23" target="n510I995kuuaHjcIF-QW-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-87" y="655" />
-              <mxPoint x="-87" y="545" />
+              <mxPoint x="-87" y="605" />
+              <mxPoint x="-87" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-23" value="1時間待つ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-37.5" y="640" width="85" height="30" as="geometry" />
+          <mxGeometry x="-37.5" y="590" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-26" value="忙しい" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="600" width="40" height="20" as="geometry" />
+          <mxGeometry x="-75" y="585" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-27" target="n510I995kuuaHjcIF-QW-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-27" value="DA端末状況を「使用中」に更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="516.25" width="100" height="57.5" as="geometry" />
+          <mxGeometry x="155" y="481.25" width="100" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-37" target="n510I995kuuaHjcIF-QW-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-37" value="ロボットを実行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="521.25" width="120" height="47.5" as="geometry" />
+          <mxGeometry x="300" y="486.25" width="120" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-39" target="n510I995kuuaHjcIF-QW-62">
           <mxGeometry relative="1" as="geometry" />
@@ -75,27 +75,27 @@
         <mxCell id="n510I995kuuaHjcIF-QW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-39" target="n510I995kuuaHjcIF-QW-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="460" />
+              <mxPoint x="520" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-39" value="実行結果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="512.5" width="100" height="65" as="geometry" />
+          <mxGeometry x="470" y="477.5" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;担当者&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-97.5" y="-200" width="57.5" height="20" as="geometry" />
+          <mxGeometry x="-107.5" y="-130" width="57.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-41" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ロボット&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-107.5" y="340" width="67.5" height="20" as="geometry" />
+          <mxGeometry x="-107.5" y="290" width="67.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-44" value="再実行を設定" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-160" width="200" height="80" as="geometry" />
+          <mxGeometry x="220" y="-90" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-45" value="①元ファイルを再度アップロード&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;②実行日付を選択&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;（必要場合）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="n510I995kuuaHjcIF-QW-44">
           <mxGeometry x="-5" y="30" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-51" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="70" width="1050" height="250" as="geometry" />
+          <mxGeometry x="-110" y="70" width="1050" height="200" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-52" target="n510I995kuuaHjcIF-QW-56">
           <mxGeometry relative="1" as="geometry" />
@@ -106,8 +106,13 @@
         <mxCell id="n510I995kuuaHjcIF-QW-53" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;依頼管理システム&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-102.5" y="80" width="67.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="n510I995kuuaHjcIF-QW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-14" target="n510I995kuuaHjcIF-QW-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="n510I995kuuaHjcIF-QW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="n510I995kuuaHjcIF-QW-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-25" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="170" y="-25" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-45" target="n510I995kuuaHjcIF-QW-52">
           <mxGeometry relative="1" as="geometry" />
@@ -135,7 +140,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-62" value="成功返却" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="350" width="90" height="40" as="geometry" />
+          <mxGeometry x="475" y="300" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-65" target="n510I995kuuaHjcIF-QW-67">
           <mxGeometry relative="1" as="geometry" />
@@ -144,13 +149,13 @@
           <mxGeometry x="465" y="180" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-70" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-69" value="成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="480" width="40" height="20" as="geometry" />
+          <mxGeometry x="480" y="430" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-71" value="「QUEUE」のタスクをループ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="430" width="180" height="20" as="geometry" />
+          <mxGeometry x="210" y="390" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
