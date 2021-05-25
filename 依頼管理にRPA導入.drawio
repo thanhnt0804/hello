@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T06:10:39.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wLsro7onEQZwBBQBe4Gt" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T06:16:32.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="d2fbqIp4Kci6DjFvA-K0" version="14.7.0" type="github">
   <diagram id="HkwJ5wBVBo28_0Q30BGw" name="Page-1">
     <mxGraphModel dx="1865" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,14 +25,14 @@
         <mxCell id="n510I995kuuaHjcIF-QW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-16" target="n510I995kuuaHjcIF-QW-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n510I995kuuaHjcIF-QW-16" value="タスクを取得" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n510I995kuuaHjcIF-QW-16" value="タスクを取得&lt;br&gt;「QUEUE」に追加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-55" y="370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-17" target="n510I995kuuaHjcIF-QW-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n510I995kuuaHjcIF-QW-17" value="「QUEUE」に追加" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-65" y="440" width="140" height="40" as="geometry" />
+        <mxCell id="n510I995kuuaHjcIF-QW-17" value="&lt;span&gt;「QUEUE」からタスクを所得&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-97.5" y="440" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-21" target="n510I995kuuaHjcIF-QW-23">
           <mxGeometry relative="1" as="geometry" />
@@ -68,6 +68,16 @@
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-37" value="ロボットを実行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="521.25" width="120" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-39" target="n510I995kuuaHjcIF-QW-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-39" target="n510I995kuuaHjcIF-QW-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-39" value="実行結果" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="512.5" width="100" height="65" as="geometry" />
@@ -120,6 +130,27 @@
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-61" value="正当" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-62" target="n510I995kuuaHjcIF-QW-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-62" value="成功返却" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-65" target="n510I995kuuaHjcIF-QW-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-65" value="担当者に報告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-70" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-69" value="成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n510I995kuuaHjcIF-QW-71" value="「QUEUE」のタスクをループ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
