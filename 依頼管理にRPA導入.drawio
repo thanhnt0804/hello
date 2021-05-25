@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T06:00:28.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iWqwrHxPswYLCfRZv4mZ" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T06:00:55.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="I2OT4yolcLWMsMzI9zl_" version="14.7.0" type="github">
   <diagram id="HkwJ5wBVBo28_0Q30BGw" name="Page-1">
     <mxGraphModel dx="1865" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,13 @@
         <mxCell id="n510I995kuuaHjcIF-QW-17" value="「QUEUE」に追加" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-65" y="440" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n510I995kuuaHjcIF-QW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-14" target="n510I995kuuaHjcIF-QW-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="n510I995kuuaHjcIF-QW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-10" target="n510I995kuuaHjcIF-QW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="5" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n510I995kuuaHjcIF-QW-21" target="n510I995kuuaHjcIF-QW-23">
           <mxGeometry relative="1" as="geometry" />
