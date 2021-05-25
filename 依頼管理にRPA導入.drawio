@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T06:23:14.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="x4I2GYRUCxbRtlbyaNKU" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T06:23:24.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MS3kUkz3jcOhTMR7HDqh" version="14.7.0" type="github">
   <diagram id="HkwJ5wBVBo28_0Q30BGw" name="Page-1">
     <mxGraphModel dx="2048" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
           <mxGeometry x="470" y="477.5" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;担当者&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-107.5" y="-130" width="57.5" height="20" as="geometry" />
+          <mxGeometry x="-107.5" y="-140" width="57.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n510I995kuuaHjcIF-QW-41" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ロボット&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-107.5" y="290" width="67.5" height="20" as="geometry" />
