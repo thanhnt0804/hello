@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T08:25:32.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="k5d_er7rbE4B0z6uOHdA" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T08:26:31.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="1C6paUnjgEhqJZJgusRJ" version="14.7.0" type="github">
   <diagram id="CgOYlsMq7ZeQibSs8TQy" name="Page-1">
     <mxGraphModel dx="1038" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,6 +14,9 @@
           <mxGeometry x="470" y="60" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-4" target="qNoU5wSVQNF27pFwfI4g-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-4" target="qNoU5wSVQNF27pFwfI4g-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-4" value="Call REST Web Sevice&lt;br&gt;【Aロボットを実行】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -46,10 +49,16 @@
         <mxCell id="qNoU5wSVQNF27pFwfI4g-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-14" target="qNoU5wSVQNF27pFwfI4g-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-14" target="qNoU5wSVQNF27pFwfI4g-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-14" value="Call REST Web Sevice&lt;br&gt;【A①のロボットを実行】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-17" target="qNoU5wSVQNF27pFwfI4g-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-17" target="qNoU5wSVQNF27pFwfI4g-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-17" value="Call REST Web Sevice&lt;br&gt;【A③ロボットを実行】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -88,6 +97,9 @@
         <mxCell id="qNoU5wSVQNF27pFwfI4g-41" value="マクロを処理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qNoU5wSVQNF27pFwfI4g-39">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-42" target="qNoU5wSVQNF27pFwfI4g-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-42" value="ウエブから「実行」ボタンを押す、「タスク実行」のロボットを実行させます" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="154" y="-90" width="520" height="60" as="geometry" />
         </mxCell>
@@ -99,6 +111,9 @@
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-45" value="ステージ３" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="787" y="468" width="83" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-16" target="qNoU5wSVQNF27pFwfI4g-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
