@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T07:08:42.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="DH_2lYY_VjrKvzlGKXR2" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T07:12:05.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="fMXTxpwgsWmJCPW2UjQt" version="14.7.0" type="github">
   <diagram id="CgOYlsMq7ZeQibSs8TQy" name="Page-1">
     <mxGraphModel dx="1038" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="70" y="50" width="620" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-7" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#000000;" vertex="1" parent="qNoU5wSVQNF27pFwfI4g-3">
-          <mxGeometry x="490" y="60" width="20" height="20" as="geometry" />
+          <mxGeometry x="470" y="60" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-4" target="qNoU5wSVQNF27pFwfI4g-7">
           <mxGeometry relative="1" as="geometry" />
@@ -33,6 +33,33 @@
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-13" value="「A」のロボット" style="swimlane;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="70" y="230" width="680" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-15" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#006600;" vertex="1" parent="qNoU5wSVQNF27pFwfI4g-13">
+          <mxGeometry x="40" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-16" value="Call REST Web Sevice&lt;br&gt;【A②ロボットを実行】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qNoU5wSVQNF27pFwfI4g-13">
+          <mxGeometry x="284" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-18" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#000000;" vertex="1" parent="qNoU5wSVQNF27pFwfI4g-13">
+          <mxGeometry x="620" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-14" target="qNoU5wSVQNF27pFwfI4g-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-14" value="Call REST Web Sevice&lt;br&gt;【A①のロボットを実行】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-17" target="qNoU5wSVQNF27pFwfI4g-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-17" value="Call REST Web Sevice&lt;br&gt;【A③ロボットを実行】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-15" target="qNoU5wSVQNF27pFwfI4g-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qNoU5wSVQNF27pFwfI4g-16" target="qNoU5wSVQNF27pFwfI4g-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
