@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T08:24:16.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="RcJ9hjVYyKv68P14tKRr" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T08:25:32.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="k5d_er7rbE4B0z6uOHdA" version="14.7.0" type="github">
   <diagram id="CgOYlsMq7ZeQibSs8TQy" name="Page-1">
     <mxGraphModel dx="1038" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,15 @@
         </mxCell>
         <mxCell id="qNoU5wSVQNF27pFwfI4g-42" value="ウエブから「実行」ボタンを押す、「タスク実行」のロボットを実行させます" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="154" y="-90" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-43" value="ステージ２" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="787" y="300" width="93" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-44" value="ステージ１" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qNoU5wSVQNF27pFwfI4g-45" value="ステージ３" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="787" y="468" width="83" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
