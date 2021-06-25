@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T00:46:49.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="vuNH9TOcBvq69_yqv1Hl" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T00:57:14.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Sz3mmYBVG35qVJSLJu7C" version="14.7.10" type="github">
   <diagram id="28HQwo6OCVCI5V9FNQji" name="Page-1">
     <mxGraphModel dx="1038" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
             <mxPoint x="640" y="342.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-46" value="Mgr_Roboロボット実行" style="swimlane;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-46" value="Mgr_Roboロボット実行" style="swimlane;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="10" y="440" width="990" height="450" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-47" target="8I93Kz_Mq9PfsjWz6-mo-48">
@@ -195,6 +195,17 @@
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8I93Kz_Mq9PfsjWz6-mo-39" target="8I93Kz_Mq9PfsjWz6-mo-46">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-75" value="②Aロボット実行" style="swimlane;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="10" y="930" width="990" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8I93Kz_Mq9PfsjWz6-mo-49" target="8I93Kz_Mq9PfsjWz6-mo-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="781" y="900" />
+              <mxPoint x="505" y="900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
