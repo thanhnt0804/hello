@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T00:25:45.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Wn6-iD1wrf94HBACuzXr" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T00:27:01.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="U_Vg88HWx31czrxEBPYT" version="14.7.10" type="github">
   <diagram id="28HQwo6OCVCI5V9FNQji" name="Page-1">
     <mxGraphModel dx="1038" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
             <mxPoint x="580" y="312.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-30" value="スケージュールを取得ロボット" style="swimlane;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-30" value="スケージュールを取得ロボット" style="swimlane;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="10" y="260" width="780" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-30" source="8I93Kz_Mq9PfsjWz6-mo-36" target="8I93Kz_Mq9PfsjWz6-mo-37">
@@ -90,8 +90,8 @@
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-38" value="元ファイル&lt;br&gt;ダウンロード" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
           <mxGeometry x="285" y="60" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-39" value="Mana_Roboロボット実行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
-          <mxGeometry x="445" y="60" width="120" height="45" as="geometry" />
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-39" value="Mgr_Roboロボット実行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
+          <mxGeometry x="445" y="60" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
           <mxGeometry x="630" y="72.5" width="20" height="20" as="geometry" />
