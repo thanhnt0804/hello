@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T00:40:22.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="OQ23TUX2MBW7GhyWBUb-" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T00:41:51.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="cyPl8COBjOrmDXSaFiLo" version="14.7.10" type="github">
   <diagram id="28HQwo6OCVCI5V9FNQji" name="Page-1">
     <mxGraphModel dx="1865" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-46" value="Mgr_Roboロボット実行" style="swimlane;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-81" y="450" width="990" height="490" as="geometry" />
+          <mxGeometry x="-81" y="440" width="990" height="490" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-47" target="8I93Kz_Mq9PfsjWz6-mo-48">
           <mxGeometry relative="1" as="geometry" />
@@ -117,7 +117,7 @@
           <mxGeometry x="120" y="57.5" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-49" value="元ファイル確認" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
-          <mxGeometry x="120" y="290" width="100" height="45" as="geometry" />
+          <mxGeometry x="721" y="272.5" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-50" target="8I93Kz_Mq9PfsjWz6-mo-54">
           <mxGeometry relative="1" as="geometry">
@@ -172,14 +172,20 @@
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-64" target="8I93Kz_Mq9PfsjWz6-mo-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-64" target="8I93Kz_Mq9PfsjWz6-mo-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-64" value="&lt;span&gt;デバイスをチェック&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
           <mxGeometry x="420" y="255" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8I93Kz_Mq9PfsjWz6-mo-66" value="当日" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
           <mxGeometry x="490" y="210" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-69" value="デバイスは使用中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
-          <mxGeometry x="430" y="350" width="50" height="20" as="geometry" />
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-69" value="DA使用中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+          <mxGeometry x="420" y="350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-71" value="DS又はDA空いている" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+          <mxGeometry x="570" y="272.5" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
