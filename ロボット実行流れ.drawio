@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T00:57:14.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Sz3mmYBVG35qVJSLJu7C" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T01:06:53.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="_ph8qlh1VJe4MMPHNp92" version="14.7.10" type="github">
   <diagram id="28HQwo6OCVCI5V9FNQji" name="Page-1">
-    <mxGraphModel dx="1038" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,73 +69,79 @@
             <mxPoint x="580" y="312.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-30" value="①スケージュールを取得ロボット" style="swimlane;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="10" y="260" width="780" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-30" source="8I93Kz_Mq9PfsjWz6-mo-36" target="8I93Kz_Mq9PfsjWz6-mo-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
-          <mxGeometry x="25" y="72.5" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-30" source="8I93Kz_Mq9PfsjWz6-mo-37" target="8I93Kz_Mq9PfsjWz6-mo-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-37" value="スケージュールを取得" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
-          <mxGeometry x="125" y="60" width="100" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-30" source="8I93Kz_Mq9PfsjWz6-mo-38" target="8I93Kz_Mq9PfsjWz6-mo-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-38" value="元ファイル&lt;br&gt;ダウンロード" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
-          <mxGeometry x="285" y="60" width="100" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-39" value="Mgr_Roboロボット実行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
-          <mxGeometry x="445" y="60" width="115" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-30">
-          <mxGeometry x="630" y="72.5" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8I93Kz_Mq9PfsjWz6-mo-39">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="8I93Kz_Mq9PfsjWz6-mo-46">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="342.5" as="targetPoint" />
+            <mxPoint x="512.5" y="365" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-46" value="Mgr_Roboロボット実行" style="swimlane;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="10" y="440" width="990" height="450" as="geometry" />
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-78" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="280" width="1110" height="1230" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-47" target="8I93Kz_Mq9PfsjWz6-mo-48">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-79" value="①スケージュールを取得ロボット" style="swimlane;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="410" width="780" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-79" source="8I93Kz_Mq9PfsjWz6-mo-81" target="8I93Kz_Mq9PfsjWz6-mo-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-47" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-81" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-79">
+          <mxGeometry x="25" y="72.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-79" source="8I93Kz_Mq9PfsjWz6-mo-83" target="8I93Kz_Mq9PfsjWz6-mo-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-83" value="スケージュールを取得" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-79">
+          <mxGeometry x="125" y="60" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-79" source="8I93Kz_Mq9PfsjWz6-mo-85" target="8I93Kz_Mq9PfsjWz6-mo-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-85" value="元ファイル&lt;br&gt;ダウンロード" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-79">
+          <mxGeometry x="285" y="60" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-79" source="8I93Kz_Mq9PfsjWz6-mo-86" target="8I93Kz_Mq9PfsjWz6-mo-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-86" value="Mgr_Roboロボット実行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-79">
+          <mxGeometry x="445" y="60" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-87" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-79">
+          <mxGeometry x="630" y="72.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-88" value="Mgr_Roboロボット実行" style="swimlane;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="570" width="990" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-90" target="8I93Kz_Mq9PfsjWz6-mo-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-90" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="25" y="70" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-48" target="8I93Kz_Mq9PfsjWz6-mo-50">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-92" target="8I93Kz_Mq9PfsjWz6-mo-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-48" value="ロボットIDを確認" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-92" value="ロボットIDを確認" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="120" y="57.5" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-49" target="8I93Kz_Mq9PfsjWz6-mo-72">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-94" target="8I93Kz_Mq9PfsjWz6-mo-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-49" value="Aロボットを実行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-94" value="Aロボットを実行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="721" y="272.5" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-50" target="8I93Kz_Mq9PfsjWz6-mo-54">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-96" target="8I93Kz_Mq9PfsjWz6-mo-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="330" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-50" value="&lt;span&gt;元ファイル確認&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-96" value="&lt;span&gt;元ファイル確認&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="270" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-97" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="480" y="70" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-51" target="8I93Kz_Mq9PfsjWz6-mo-64">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-99" target="8I93Kz_Mq9PfsjWz6-mo-110">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="391" y="413" />
@@ -143,69 +149,58 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-51" value="10分待つ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-99" value="10分待つ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="440" y="390" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-54" target="8I93Kz_Mq9PfsjWz6-mo-61">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-102" target="8I93Kz_Mq9PfsjWz6-mo-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-54" target="8I93Kz_Mq9PfsjWz6-mo-64">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-102" target="8I93Kz_Mq9PfsjWz6-mo-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-54" value="&lt;span&gt;実行日付をチェック&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-102" value="&lt;span&gt;実行日付をチェック&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="420" y="120" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-50" target="8I93Kz_Mq9PfsjWz6-mo-52">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-96" target="8I93Kz_Mq9PfsjWz6-mo-97">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-59" value="無し" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-104" value="無し" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="404" y="57.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-60" value="有り" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-105" value="有り" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="330" y="140" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-61" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-106" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="640" y="150" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-63" value="当日以外" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-107" value="当日以外" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="560" y="140" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-64" target="8I93Kz_Mq9PfsjWz6-mo-51">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-110" target="8I93Kz_Mq9PfsjWz6-mo-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-46" source="8I93Kz_Mq9PfsjWz6-mo-64" target="8I93Kz_Mq9PfsjWz6-mo-49">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8I93Kz_Mq9PfsjWz6-mo-88" source="8I93Kz_Mq9PfsjWz6-mo-110" target="8I93Kz_Mq9PfsjWz6-mo-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-64" value="&lt;span&gt;デバイスをチェック&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-110" value="&lt;span&gt;デバイスをチェック&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="420" y="255" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-66" value="当日" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-111" value="当日" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="490" y="210" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-69" value="DA使用中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-112" value="DA使用中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="420" y="350" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-71" value="DS又はDA空いている" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-113" value="DS又はDA空いている" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="570" y="272.5" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-72" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-114" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry x="901" y="285" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8I93Kz_Mq9PfsjWz6-mo-39" target="8I93Kz_Mq9PfsjWz6-mo-46">
+        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8I93Kz_Mq9PfsjWz6-mo-86" target="8I93Kz_Mq9PfsjWz6-mo-88">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-75" value="②Aロボット実行" style="swimlane;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="10" y="930" width="990" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="8I93Kz_Mq9PfsjWz6-mo-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8I93Kz_Mq9PfsjWz6-mo-49" target="8I93Kz_Mq9PfsjWz6-mo-75">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="781" y="900" />
-              <mxPoint x="505" y="900" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
