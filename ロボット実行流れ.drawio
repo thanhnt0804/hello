@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T07:42:03.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="75tegbE_VDcqqIlv9COP" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:42:44.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FlrDbeZr1B_2xxcgvfQg" version="14.8.1" type="github" pages="2">
   <diagram id="28HQwo6OCVCI5V9FNQji" name="Page-1">
     <mxGraphModel dx="1865" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
         <mxCell id="DDhEcbZWcjpTkUFw08PP-19" value="担当者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
           <mxGeometry x="20" y="585" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDhEcbZWcjpTkUFw08PP-20" value="&lt;span&gt;DA状況をDBに保存&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-20" value="&lt;span&gt;DBに保存&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
           <mxGeometry x="75" y="360" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DDhEcbZWcjpTkUFw08PP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DDhEcbZWcjpTkUFw08PP-1" source="DDhEcbZWcjpTkUFw08PP-23" target="DDhEcbZWcjpTkUFw08PP-20">
