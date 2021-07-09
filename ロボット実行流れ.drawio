@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T07:34:21.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Hf92AuqdlY-XRMySnQFY" version="14.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:42:03.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="75tegbE_VDcqqIlv9COP" version="14.8.1" type="github" pages="2">
   <diagram id="28HQwo6OCVCI5V9FNQji" name="Page-1">
     <mxGraphModel dx="1865" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,14 +225,11 @@
         <mxCell id="DDhEcbZWcjpTkUFw08PP-4" value="DA状況を取得" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
           <mxGeometry x="60" y="115" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DDhEcbZWcjpTkUFw08PP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DDhEcbZWcjpTkUFw08PP-1" source="DDhEcbZWcjpTkUFw08PP-5" target="DDhEcbZWcjpTkUFw08PP-8">
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DDhEcbZWcjpTkUFw08PP-1" source="DDhEcbZWcjpTkUFw08PP-5" target="DDhEcbZWcjpTkUFw08PP-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDhEcbZWcjpTkUFw08PP-5" value="APIでDA状況を送信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
           <mxGeometry x="60" y="190" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="DDhEcbZWcjpTkUFw08PP-8" value="DA状況をDBに保存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
-          <mxGeometry x="60" y="320" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DDhEcbZWcjpTkUFw08PP-11" value="依頼管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
           <mxGeometry x="20" y="270" width="60" height="20" as="geometry" />
@@ -242,6 +239,42 @@
         </mxCell>
         <mxCell id="DDhEcbZWcjpTkUFw08PP-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
           <mxGeometry x="95" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-17" value="DBを確認し、" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="460" y="370" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="20" y="585" width="780" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-19" value="担当者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="20" y="585" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-20" value="&lt;span&gt;DA状況をDBに保存&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="75" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DDhEcbZWcjpTkUFw08PP-1" source="DDhEcbZWcjpTkUFw08PP-23" target="DDhEcbZWcjpTkUFw08PP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-23" value="タスクを登録" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="60" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DDhEcbZWcjpTkUFw08PP-1" source="DDhEcbZWcjpTkUFw08PP-24" target="DDhEcbZWcjpTkUFw08PP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-24" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="95" y="740" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-32" value="適当なロボットを実行" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-1">
+          <mxGeometry x="210" y="358" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-33" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-32">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-34" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-32">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DDhEcbZWcjpTkUFw08PP-35" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DDhEcbZWcjpTkUFw08PP-32">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
