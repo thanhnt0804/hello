@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T01:28:22.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="3lPsevmi3iAiozLnDCiY" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-03T01:31:46.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="3i5zcwuKiJoeOJ9GQPn9" version="14.8.5" type="github">
   <diagram id="HafO20qMKXza9hgyYV3G" name="Page-1">
-    <mxGraphModel dx="1939" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2001" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,8 +25,14 @@
         <mxCell id="J3SZREGznl9d5Gs7Xp---50" value="結果は正解" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---3">
           <mxGeometry x="80" y="62.5" width="90" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---61" value="有" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---3">
+          <mxGeometry x="40" y="70" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---62" value="無" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---3">
+          <mxGeometry x="124" y="121" width="40" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="J3SZREGznl9d5Gs7Xp---4" value="RPAの窓口（日本側）" style="swimlane;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="230" width="1190" height="210" as="geometry" />
+          <mxGeometry x="-180" y="230" width="1190" height="230" as="geometry" />
         </mxCell>
         <mxCell id="J3SZREGznl9d5Gs7Xp---11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J3SZREGznl9d5Gs7Xp---4" source="J3SZREGznl9d5Gs7Xp---6" target="J3SZREGznl9d5Gs7Xp---9">
           <mxGeometry relative="1" as="geometry" />
@@ -91,6 +97,18 @@
         <mxCell id="J3SZREGznl9d5Gs7Xp---51" value="無" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---4">
           <mxGeometry x="530" y="132.5" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---53" value="正しくない連絡" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---4">
+          <mxGeometry x="90" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="J3SZREGznl9d5Gs7Xp---4" source="J3SZREGznl9d5Gs7Xp---56" target="J3SZREGznl9d5Gs7Xp---59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---56" value="ロボット運用" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---4">
+          <mxGeometry x="30" y="112.5" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---59" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="J3SZREGznl9d5Gs7Xp---4">
+          <mxGeometry x="70" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="J3SZREGznl9d5Gs7Xp---5" value="RPA開発者（オフショア）" style="swimlane;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-180" y="450" width="1190" height="150" as="geometry" />
         </mxCell>
@@ -144,6 +162,25 @@
         </mxCell>
         <mxCell id="J3SZREGznl9d5Gs7Xp---48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.148;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J3SZREGznl9d5Gs7Xp---44" target="J3SZREGznl9d5Gs7Xp---46">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J3SZREGznl9d5Gs7Xp---50" target="J3SZREGznl9d5Gs7Xp---53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="J3SZREGznl9d5Gs7Xp---53" target="J3SZREGznl9d5Gs7Xp---40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-35" y="400" />
+              <mxPoint x="181" y="400" />
+              <mxPoint x="181" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J3SZREGznl9d5Gs7Xp---57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J3SZREGznl9d5Gs7Xp---50" target="J3SZREGznl9d5Gs7Xp---56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
